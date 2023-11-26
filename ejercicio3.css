@@ -1,8 +1,9 @@
 body {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center; /* Centra las cajas horizontalmente */
+  justify-content: space-between; /* Centra las cajas horizontalmente */
   align-items: center;
+  flex-wrap: ;
   height: 100vh;
   margin: 0;
 }
