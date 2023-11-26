@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column; /* Cambio a dirección de columna */
+    height: 100vh;
+    margin: 0;
+  }
+
+  .caja {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .caja1 {
+    background-color: #3498db; /* Color azul */
+  }
+
+  .caja2 {
+    background-color: #e74c3c; /* Color rojo */
+  }
+
+  .caja3 {
+    background-color: #2ecc71; /* Color verde */
+  }
